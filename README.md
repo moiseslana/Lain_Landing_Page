@@ -1,5 +1,7 @@
 # Present Day, Present Time!
 
+Link para acessar o site: https://moiseslana.github.io/Lain_Landing_Page/
+
 Este é um projeto front-end inspirado no anime **Serial Experiments Lain**.
 
 Criei essa landing page como um experimento visual e pessoal, tentando traduzir em interface alguns temas que o anime aborda: identidade, conexão, solidão e a linha cada vez mais tênue entre o mundo real e o digital.
