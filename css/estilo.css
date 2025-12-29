@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    box-sizing: border-box;   
+}
+
+body{
+    background: white;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background:  #E38836;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 5px #6d5027;
+}
+
+.logo{
+    flex: 20%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.logo h1 {
+    font-family: "Special Elite", system-ui;
+    color: #f8dab9;
+}
+
+#iwakura {
+    color: #6d5027;
+    margin-left: 5px;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+     font-family: "Cutive Mono", monospace;
+     color:  #f8dab9;
+     text-decoration: none;
+     font-size: 20px;
+     padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #f8dab9;
+    border-top: 4px solid #f8dab9;
+}
+
+#botao {
+     background-color: #f8dab9;
+     padding: 10px 25px;
+     color: #6d5027;
+     border-radius: 5px;
+     border: solid 1.5px #6d5027;
+     margin-right: 10%;
+     margin-left: 5%; 
+}
+
+#botao:hover {
+   border: none;
+   background: #6d5027;
+   color: #f8dab9;
+   border: solid 1.5px #f8dab9;
+}
+
+.header{
+    height: 600px;
+    background: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #b91b10;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    color: #301F18;
+    text-align: left;
+}
+
+#anime{
+    letter-spacing: 15px;
+    color: #E38836;
+    font-family: "Cutive Mono", monospace;
+}
+
+#lain{
+    color: #6d5027;
+     font-family: "Cutive Mono", monospace;
+}
+
+#lain2{
+    font-size: 60px;
+    color: #E38836;
+    font-family: "Special Elite", system-ui;
+}
+
+.contact-btn:hover {
+    background-color: #f8dab9;
+     padding: 20;
+     color: #6d5027;
+     border-radius: 5px;
+     border: solid 1.5px #6d5027;
+}
+
+section{
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+  
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Cutive Mono", monospace;
+    font-weight: bold;
+    color: #b91b10;
+}
+
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: solid 1px #b91b10;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#ha {
+    color: #e38387;
+}
+
+.card2 {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: solid 1px #e38387;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card3 {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: solid 1px #b91b10;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background: #b91b10;
+    color: whitesmoke;
+    padding: 40px;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
+.card3:hover{
+    background: #b91b10;
+    color: whitesmoke;
+    padding: 40px;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.card3:hover img {
+    display: none;
+}
+
+.card3:hover .card-text{
+    display: none;
+}
+
+.card3:hover .texto-oculto{
+    display: block;
+}
+
+.card2:hover{
+    background: #e38387;
+    color: whitesmoke;
+    padding: 40px;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.texto-oculto2{
+    display: none;
+}
+
+.card2:hover img {
+    display: none;
+}
+
+.card2:hover .card-text2{
+    display: none;
+}
+
+.card2:hover .texto-oculto2{
+    display: block;
+}
+
+.texto1 {
+    font-family: "IBM Plex Mono", monospace;
+    color: #b91b10;
+    font-size: 15px;
+}
+
+.primeiro{
+    font-family: "IBM Plex Mono", monospace;
+    color: #b91b10;
+}
+
+.texto2 {
+    font-family: "IBM Plex Mono", monospace;
+    color: #e38387;
+    font-size: 15px;
+}
+
+.segundo{
+    font-family: "IBM Plex Mono", monospace;
+    color: #e38387;
+}
+
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background: #e38387;
+    text-align: center;
+    border-top: solid 5px #b91b10;
+}
+
+.logo-rodape {
+    padding: 100px;
+}
+
+.footer-text {
+    font-family: "IBM Plex Mono", monospace;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.agencia {
+     font-family: "Special Elite", system-ui;
+     color: #b91b10;
+     font-size: 34px;
+}
+
+b{
+    font-family: "IBM Plex Mono", monospace;
+    color: whitesmoke;
+}
+
+
+p {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.lain-fixa {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+    ;
+    
+}
